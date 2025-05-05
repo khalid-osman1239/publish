@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+body{
+   font-family: "Josefin Sans", sans-serif;
+   margin: 0;
+}
+
+/* Website Links except the nav */
+a:link{
+   color: black;
+}
+a:visited{
+   color: black;
+}
+a:hover{
+   color:lightgray;
+}
+a:active{
+   color: black;
+}
+header{
+   text-align: center;
+   font-family: "Cinzel", sans-serif;
+}
+
+/* Navigation */
+nav{
+   background-color: dimgray;
+   border-top: 3px solid gray;
+   border-bottom: 3px solid gray;
+   padding: 1px;
+   font-family: "Bodoni Moda", sans-serif;
+}
+nav ul{
+   list-style-type: none;
+   text-align: center;
+   margin: 8px 0;
+   padding: 0;
+}
+nav li{
+   display: inline;
+   padding: 5px;
+}
+nav a{
+   text-decoration: none;
+}
+nav a:link{
+   color: white;
+}
+nav a:visited{
+   color: whitesmoke;
+}
+nav a:hover{
+   color: gray;
+}
+nav a:active{
+   color: darkgray;
+}
+.logo{
+   max-width: 300px;
+}
+
+/* Background Image */
+.main-picture{
+   background-image: url(images/image1.jpg);
+   background-size: cover;
+   padding: 20px;
+}
+.main-picture h1{
+   font-family: "Josefin Sans", sans-serif;
+   color: ghostwhite;
+   font-size: 40px;
+   text-shadow: 2px 2px 2px black;
+   text-align: center;
+   padding: 10px 0;
+   margin: 0;
+}
+.main-picture-2{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   border: 3px solid gray;
+}
+.home-photo{
+   height: auto;
+   width: 100%;
+   padding-top: 70px;
+}
+/* Main */
+main{
+   max-width: 1200px;
+   margin: 20px auto;
+   padding: 10px;
+}
+blockquote{
+   background-color: #eeeeee;
+   padding: 30px;
+}
+.resume-blockquote{
+   background-color: ghostwhite;
+   max-width: 1000px;
+   box-shadow: 4px 2px 2px gray;
+   margin-left: 100px;
+}
+hr{
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+}
+li,p,b{
+   font-size: 1em;
+}
+.col-sm-4{
+   text-align: center;
+}
+.fa{
+   font-size: 4em;
+}
+iframe{
+   float: right;
+   margin-bottom: 20px;
+}
+/* Gallery */
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* Footer */
+footer{
+   text-align: center;
+   clear: both;
+   background-color: black;
+   color: white;
+   .fa{
+      font-size: 1em;
+   }
+}
+
+/* CSS without a media query--aplies to all sizes unless overridden*/
+h1{
+   font-size: 3em;
+}
+h2{
+   font-size: 2em;
+   color: black;
+}
+h4{
+   font-size: 1em;
+}
+h5{
+   background-color: lightgray;
+   border-radius: 5px;
+   padding: 3px;
+}
+p{
+   color: black;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+   h1{
+      font-size: 2em;
+   }
+}
+
+/*CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+   h1{
+      font-size: 1.5em;
+   }
+}
